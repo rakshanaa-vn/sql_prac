@@ -4,3 +4,8 @@ insert into emp values (10, 1001, 'Murali', 10000);
 insert into emp values (20, 2001, 'Raman', 12000);
 
 select * from emp;
+
+-- Department wise Salary
+
+select dept_id, sum(salary) from emp group by dept_id;
+
