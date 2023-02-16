@@ -1,0 +1,7 @@
+>>> a = input("Enter the first number: ")
+Enter the first number: 45
+>>> b = input("Enter the second number: ")
+Enter the second number: 24
+>>> print("The total is "+(a+b))
+The total is 4524
+>>> 
